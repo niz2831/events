@@ -5,6 +5,10 @@ on:
       - opened
       - closed
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
