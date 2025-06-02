@@ -48,7 +48,7 @@ jobs:
             package.json
   deploy:
     needs: build
-    runs-on: ubuntuk-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy
         run: echo "Deploying..."
